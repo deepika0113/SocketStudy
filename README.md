@@ -55,7 +55,8 @@ Socket programming finds applications in various domains, including web developm
 
 ## Program:
 client.py
-```import socket
+```
+import socket
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 host = '127.0.0.1'
 port = 12345
